@@ -1,0 +1,299 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5 h6 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+
+article{
+    margin-left: 355px;
+}
+
+.title-1{
+    margin-bottom: 25px;
+}
+
+.title-2{
+    margin-bottom: 30px;
+}
+
+hr.new4 {
+    border: 3px solid red;
+    border-radius: 5px;
+    width: 50PX;
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(244, 67, 54);
+    width: 300px;
+    font-size: 18px;
+    height: 100%;
+}
+
+h2{
+    padding-top: 88px;
+    color: white;
+    padding-left: 43px;
+}
+
+ul{
+    padding-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 50px;
+    list-style: none;
+}
+
+    ul li  {
+    color: white;
+    padding-bottom: 15px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li:hover{
+background-color: #fcf6f6;
+}
+
+ul li:hover a{
+    color: rgb(3, 2, 2);
+}
+
+/* --HEADER--*/
+.head{
+    margin-left: 300px;
+}
+
+.head .title-1{
+    font-size: 64px;
+    padding-top: 70px;
+    margin-left: 53px;
+}
+
+.section-0 .title-2{
+    font-size: 48px;
+    color: #f44336;
+}
+
+/* --IMAGES--*/
+   .img1 img{
+        height: 325px;
+    width: 47%;
+    object-fit: cover;
+    padding: 0 5px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+  .img2 img{
+    height: 238px;
+  }
+
+   img:hover {
+ 
+    opacity: 0.5;
+}
+
+    /*--SECTION- */
+    h3{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color: #f44336;
+        font-size: 30px;
+}
+
+    .text-1{
+        padding-bottom: 15px;
+}
+
+    .text-2{
+        padding-right: 15px;
+        line-height: 1.5;
+        padding-bottom: 33px;
+}
+
+    span{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+    /* SECTION-3*/
+    .section-3{
+    display: flex;
+}
+
+    .car-1 {
+    background-image:url(images/i-1.jpg); 
+} 
+
+    .car-2{
+    background-image:url(images/i-2.jpg);
+} 
+    .car-3{
+        background-image:url(images/i-3.jpg);
+}
+
+    .groupes{
+        background: #f1f1f1;
+        width: 272px;
+        height: 365PX;
+        margin: 10px;
+}
+
+            
+    .card-image {
+        background-color: aqua;
+        height: 187px;
+        margin-bottom: 15px;
+        background-size: cover;
+}
+
+    .groupes p{
+        padding-left: 15px;
+        padding-top: 7px;
+}
+
+
+    h5{
+    margin-left: 15px;
+    margin-top: 15px;
+    color: black;
+}
+
+    h6{
+        margin-left: 15px;
+        margin-top: 15px;
+        color: #786e6e;
+        font-size: 12PX;
+}
+
+   /*--SECTION- */
+    .section-4 P{
+    
+    margin-bottom: 20px;
+}
+
+    /*--CARD- */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+    text-align: center;
+    background-color: #F1F1F1;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.card h4{    
+    color: white;
+    padding: 15px;
+}
+
+.gray{
+    background-color: gray;
+}
+.gray-button{
+    background-color: white;
+    PADDING: 8PX;
+}
+.gray-button:hover{
+    background-color: #000;
+    color: white;    
+}
+.red-button{
+    background-color: white;
+    PADDING: 8PX;
+    background-color: #F44336;
+    color: white;
+}
+.red-button:hover{
+    background-color: #000;
+    color: white;
+}
+.red{
+    background-color: #F44336;
+}
+
+.cardes{
+    display: flex;
+    
+}
+
+.card span {
+    padding: 15PX;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.card button{
+    width: 20%;
+    margin: AUTO;
+    MARGIN-TOP: 10PX;
+    MARGIN-BOTTOM: 10PX;
+    border: none;
+    cursor: pointer;
+}
+
+hr{
+opacity: .5;
+}
+
+.Contact p{
+    margin-bottom: 30px;
+}
+.formBox{
+    width: 300px;
+}
+
+    .formBox .inputBox{
+    width: 100%;
+}
+
+    .from{
+    width: 830PX;
+    
+}
+    .from  input{
+        width: 105%;
+    height: 30px;
+    MARGIN-BOTTOM: 10PX;
+}
+
+    .from button{
+    background-color: #F44336;
+    width: 105%;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+} 
+
+    .from button:hover{
+    background-color:#f1f1f1;
+    color: #000;
+}
+
+/*footer*/
+footer{
+    padding-left: 355px;
+    background-color: #f1f1f1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 75px;
+}
+
+    footer p{
+    color: #000;
+    padding-bottom: 15px;
+    font-size: 20px;
+    }
+
+.social img{
+    width: 2.5rem;
+}
+
